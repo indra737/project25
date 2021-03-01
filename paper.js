@@ -17,7 +17,7 @@ class Paper{
     update(){
         var pos=this.body.position;
         if(keyDown("up")){
-            Matter.Body.applyForce(this.body, pos, {x:0.005, y:-0.01})
+            Matter.Body.applyForce(this.body, pos, {x:0.005, y:-0.015})
         }
     }
 	display()
